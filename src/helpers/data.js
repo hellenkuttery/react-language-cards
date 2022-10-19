@@ -47,5 +47,5 @@ export const data = [
     name: "PHP",
     img: php,
     options: ["Backend", "1995", "	Rasmus Lerdorf"],
-  },
+  }
 ];

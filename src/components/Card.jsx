@@ -11,7 +11,7 @@ const Card = () => {
     <>
       <Container className="rounded-4 mt-4" style={{ background: "#f48b29" }}>
         <h1 className="text-center">Language</h1>
-        <Row>
+        <Row className="g-3">
           {data.map((lang, index) => {
             return (
               // Bu şekilde gönderirsek language de {img,name,options olarak alıyoruz}
